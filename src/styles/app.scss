@@ -1,9 +1,11 @@
-@import "./base/base";
-
-@import "./hero";
-@import "./features";
-@import "./cta";
-@import "./section";
-@import "./button";
-@import "./footer";
-@import "./browsers";
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Outfit', sans-serif;
+}
